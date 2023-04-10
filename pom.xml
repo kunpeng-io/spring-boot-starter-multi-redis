@@ -10,6 +10,7 @@
     <groupId>io.github.kunpeng-io</groupId>
     <artifactId>spring-boot-starter-multi-redis</artifactId>
     <version>1.0.0</version>
+    <url>https://github.com/kunpeng-io/spring-boot-starter-multi-redis</url>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
