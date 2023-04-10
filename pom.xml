@@ -45,7 +45,7 @@
     <scm>
         <url>https://github.com/kunpeng-io/spring-boot-starter-multi-redis</url>
         <connection>scm:git:git://github.com/kunpeng-io/spring-boot-starter-multi-redis.git</connection>
-        <developerConnection>scm:git:git@github.com:kunpeng-io/spring-boot-starter-multi-redisgit</developerConnection>
+        <developerConnection>scm:git:git@github.com:kunpeng-io/spring-boot-starter-multi-redis.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
