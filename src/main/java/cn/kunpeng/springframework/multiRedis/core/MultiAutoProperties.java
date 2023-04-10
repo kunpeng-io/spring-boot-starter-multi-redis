@@ -1,8 +1,8 @@
-package cn.ark.springframework.multiRedis.core;
+package cn.kunpeng.springframework.multiRedis.core;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import java.util.List;
-import static cn.ark.springframework.multiRedis.core.MultiAutoProperties.prefix;
+import static cn.kunpeng.springframework.multiRedis.core.MultiAutoProperties.prefix;
 
 /**
  * Description

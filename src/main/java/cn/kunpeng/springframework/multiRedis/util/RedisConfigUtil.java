@@ -1,4 +1,4 @@
-package cn.ark.springframework.multiRedis.util;
+package cn.kunpeng.springframework.multiRedis.util;
 
 
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;

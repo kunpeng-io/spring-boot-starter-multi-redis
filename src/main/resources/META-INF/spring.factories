@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-cn.ark.springframework.multiRedis.core.MultiRedisAutoConfig
+cn.kunpeng.springframework.multiRedis.core.MultiRedisAutoConfig

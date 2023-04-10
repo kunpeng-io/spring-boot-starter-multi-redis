@@ -1,6 +1,6 @@
-package cn.ark.springframework.multiRedis.core;
+package cn.kunpeng.springframework.multiRedis.core;
 
-import cn.ark.springframework.multiRedis.util.RedisConfigUtil;
+import cn.kunpeng.springframework.multiRedis.util.RedisConfigUtil;
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
@@ -12,8 +12,6 @@ import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.Environment;
 import org.springframework.core.type.AnnotationMetadata;
 import org.springframework.data.redis.core.RedisTemplate;
-
-import static cn.ark.springframework.multiRedis.core.MultiAutoProperties.prefix;
 
 /**
  * Description
@@ -28,7 +26,7 @@ public class RedisTemplateBeanDefinitionRegistrar implements ImportBeanDefinitio
 
     @Override
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
-        BindResult<MultiAutoProperties> bind = Binder.get(environment).bind(prefix,MultiAutoProperties.class);
+        BindResult<MultiAutoProperties> bind = Binder.get(environment).bind(MultiAutoProperties.prefix,MultiAutoProperties.class);
         if (bind.isBound()) {
             MultiAutoProperties multiAutoProperties = bind.get();
             for (MultiRedisProperties multiRedisProperties : multiAutoProperties.getMulti()) {

@@ -1,4 +1,4 @@
-package cn.ark.springframework.multiRedis.core;
+package cn.kunpeng.springframework.multiRedis.core;
 
 import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
 
