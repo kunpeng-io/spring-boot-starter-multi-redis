@@ -16,14 +16,14 @@ Spring Boot Starter Multi Redis 是一个基于 Spring Boot 的 Redis 多数据�
 
 ```xml
 <dependency>
-    <groupId>cn.ark.springframework</groupId>
+    <groupId>io.github.kunpeng-io</groupId>
     <artifactId>spring-boot-starter-multi-redis</artifactId>
     <version>1.0.0</version>
 </dependency>
 ```
 
 ```groovy
-implementation 'cn.ark.springframework:spring-boot-starter-multi-redis:1.0.0'
+implementation 'io.github.kunpeng-io:spring-boot-starter-multi-redis:1.0.0'
 ```
 
 ## 快速开始
