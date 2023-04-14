@@ -12,7 +12,7 @@
     <packaging>jar</packaging>
     <artifactId>spring-boot-starter-multi-redis</artifactId>
     <version>1.0.0</version>
-    <name>Jasypt Spring Boot Parent</name>
+    <name>spring-boot-starter-multi-redis</name>
     <description>redis多数据源stater</description>
     <url>https://github.com/kunpeng-io/spring-boot-starter-multi-redis</url>
 
