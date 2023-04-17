@@ -76,6 +76,10 @@
                     <groupId>io.netty</groupId>
                     <artifactId>netty-handler</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-expression</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
